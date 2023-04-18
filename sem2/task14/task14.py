@@ -9,5 +9,5 @@ n = int(input())
 p = 1
 prod = 1
 while p <= n:
-    print(p)
+    print(p, end=" ")
     p *= 2
