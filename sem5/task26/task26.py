@@ -14,7 +14,7 @@ def pow_1(num, deg):
     if deg == 1:
         return num
     else:
-       return pow(num, deg - 1) * num
+        return pow_1(num, deg - 1) * num
 
 
 print(pow_1(num, deg))
